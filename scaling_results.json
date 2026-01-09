@@ -1,0 +1,59 @@
+{
+  "started": "",
+  "completed": "2026-01-09T21:54:11.181470",
+  "duration_hours": 8.395499653286404e-05,
+  "max_pool": 500,
+  "trials": 2,
+  "total_tests": 4,
+  "all_passed": true,
+  "results": [
+    {
+      "pool": 50,
+      "K": 2,
+      "V": 13,
+      "amplitude": 0.5,
+      "avg_steps": 12.0,
+      "avg_coherence": 0.9116060327178241,
+      "success_rate": 1.0,
+      "min_steps": 12,
+      "max_steps": 12,
+      "test_time_sec": 0.03170418739318848
+    },
+    {
+      "pool": 100,
+      "K": 2,
+      "V": 13,
+      "amplitude": 0.5,
+      "avg_steps": 14.0,
+      "avg_coherence": 0.9121678807768097,
+      "success_rate": 1.0,
+      "min_steps": 14,
+      "max_steps": 14,
+      "test_time_sec": 0.011911869049072266
+    },
+    {
+      "pool": 200,
+      "K": 3,
+      "V": 16,
+      "amplitude": 0.3,
+      "avg_steps": 14.0,
+      "avg_coherence": 0.908343143005955,
+      "success_rate": 1.0,
+      "min_steps": 14,
+      "max_steps": 14,
+      "test_time_sec": 0.030641794204711914
+    },
+    {
+      "pool": 500,
+      "K": 4,
+      "V": 52,
+      "amplitude": 0.3,
+      "avg_steps": 13.5,
+      "avg_coherence": 0.9103827653382809,
+      "success_rate": 1.0,
+      "min_steps": 13,
+      "max_steps": 14,
+      "test_time_sec": 0.22701287269592285
+    }
+  ]
+}
