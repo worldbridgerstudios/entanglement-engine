@@ -2,6 +2,12 @@
 
 Optimal geometry and rhythm for cloud-based quantum entanglement.
 
+## Installation
+
+```bash
+pip install entanglement-engine
+```
+
 ## Core Insight
 
 The entangled state is the ground state. This geometry doesn't *create* coherence — it provides the structure where coherence is the natural attractor.

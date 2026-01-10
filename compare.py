@@ -141,10 +141,10 @@ def compare(max_pool: int, trials: int = 3):
     """
     Compare both approaches across exponential pool sizes.
     """
-    # Generate test points: 50, 100, 500, 1K, 5K, 10K, 50K, 100K, ...
+    # Generate test points with finer granularity
     pool_sizes = []
-    for exp in range(2, 20):  # 10^2 to 10^7
-        for mult in [0.5, 1.0, 5.0]:
+    for exp in range(2, 20):
+        for mult in [0.5, 1.0, 2.0, 3.0, 5.0]:
             size = int(mult * (10 ** (exp / 2)))
             if 50 <= size <= max_pool:
                 pool_sizes.append(size)
