@@ -205,7 +205,6 @@ secrets/
 # ─────────────────────────────────────────────────────────────────────────────
 # Claude Skills Output (generated zips)
 # ─────────────────────────────────────────────────────────────────────────────
-docs/ai/skills/output/
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Misc
@@ -219,3 +218,7 @@ temp/
 *.backup
 Thumbs.db
 .api-keys.json
+target/
+api-keys.yml
+api-keys.yml.*
+api-keys.yml.template
