@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "entanglement-engine"
+version = "0.1.0"
+description = "Geometric quantum coherence where entanglement is the ground state"
+readme = "README.md"
+license = "CC0-1.0"
+authors = [
+    { name = "Nicholas David Brown", email = "worldbridgerstudios@gmail.com" }
+]
+keywords = [
+    "quantum",
+    "coherence",
+    "entanglement",
+    "geometry",
+    "kuramoto",
+    "synchronization",
+    "error-correction",
+    "physics"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.20.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/worldbridgerstudios/EntanglementEngine"
+Documentation = "https://github.com/worldbridgerstudios/EntanglementEngine"
+Repository = "https://github.com/worldbridgerstudios/EntanglementEngine"
+
+[project.scripts]
+entanglement-engine = "entanglement_engine.cli:main"
