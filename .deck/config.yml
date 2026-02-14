@@ -1,0 +1,7 @@
+name: entanglement-engine
+status: dormant
+
+stack:
+  - python
+
+connections: {}
